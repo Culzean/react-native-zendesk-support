@@ -40,7 +40,7 @@ class SupportActivityBuilder {
     SupportActivityBuilder builder = new SupportActivityBuilder();
     builder.showConversationsMenuButton(true);
     builder.withArticleVoting(true);
-    builder.withContactUsButtonVisibility(ContactUsButtonVisibility.ARTICLE_LIST_AND_ARTICLE);
+    builder.withContactUsButtonVisibility(ContactUsButtonVisibility.OFF);
     return builder;
   }
 
